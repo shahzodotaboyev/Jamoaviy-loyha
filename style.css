@@ -6,9 +6,13 @@
     box-sizing: border-box;
     font-family: Manrope;
     text-decoration: none;
+   
 
 }
+body{
 
+    background-color:    #F7F6FF ;
+}
 .container {
     max-width: 1440px;
     width: 100%;
@@ -18,7 +22,7 @@
 header {
     width: 100%;
     height: 85px;
-    background-color: #ffff;
+    background-color: #ffffff;
     position: sticky;
     top: 0;
     display: flex;

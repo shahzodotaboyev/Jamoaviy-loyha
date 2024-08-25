@@ -1,4 +1,102 @@
-.container2{
+.contianer2{
     max-width:1170px ;
     margin: auto;
+}
+.page3{
+    background-color: ;
+    width:100%;
+    height: 515px;
+    display: flex;
+    gap: 30px;
+}
+.page3_left{
+    width: 570px;
+    height: 515px;
+    
+}
+.page3_img{
+    width: 570px;
+}
+.page3_h2{
+    font-size: 38px;
+   font-weight: 700;
+   line-height: 48px;
+   margin-bottom: 10px;
+
+  
+}
+.page3_p1{
+    font-size: 16px;
+   font-weight: 400;
+ 
+    margin-bottom: 10px;
+  
+}
+.page3_input_div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+}
+.input2_page3{
+    margin-top: 40px;
+    width: 100%;
+    height:140px ;
+    border-radius: 8px;
+    box-shadow: inset;
+    background-color: white;
+    
+}
+.input_page3{
+    margin: 20px 0;
+    width: 48%;
+    height:60px ;
+    border-radius: 8px;
+    background-color: white;
+
+}
+.page3_chekboc{
+    
+    width: 32px;
+    height: 32px;
+    background-color: white;
+
+}
+.page3_chek{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+   
+}
+.page3_chek p{
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 26px;
+   font-family: monrope;
+}
+.page3_btn{
+    width: 180px;
+    padding: 15px 30px;
+    border: none;
+    background: linear-gradient(270deg, #FF4F39 0%, #FFBC2A 100%);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+/* page4!!!!!!!!!!!!! */
+.page4{
+    margin-top: 50px;
+    width: 1291x;
+    height: ;
+}
+.next{
+ font-size: 68px;
+ color: #000000;
 }
