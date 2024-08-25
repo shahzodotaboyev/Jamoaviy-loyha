@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url(./nurmuhammad.css);
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Manrope;
     text-decoration: none;
-   
+
 
 }
-body{
 
-    background-color:    #F7F6FF ;
+body {
+
+    background-color: #F7F6FF;
 }
+
 .container {
     max-width: 1440px;
-    width: 100%;
+    width: 1440px;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header {
@@ -65,10 +71,12 @@ header button a {
 }
 
 .s1 {
+    max-width: 1440px;
     width: 100%;
     height: auto;
     background-color: #fff;
     display: flex;
+    margin: auto;
     padding: 70px 100px;
 }
 
@@ -111,3 +119,49 @@ header button a {
     align-items: start;
     justify-content: end;
 }
+
+.s2 {
+    width: 1170px;
+    height: 254px;
+    border-radius: 20px;
+    box-shadow: 26px 2px 100px 13px rgba(34, 60, 80, 0.2);
+    padding: 40px 50px 100px;
+    margin-top: 420px;
+    margin: auto;
+
+}
+
+.s2 h1 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #333333;
+}
+
+.s2_boxs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+
+.s2_box h1 {
+    font-size: 48px;
+    font-weight: 800;
+    /* background: linear-gradient(270deg, #FF4F39 0%, #FFBC2A 100%); */
+    color: #ff9a15;
+
+
+}
+
+.s2_box p {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.s2_box h1 span {
+    font-size: 40px;
+}   
