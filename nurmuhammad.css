@@ -92,11 +92,87 @@
 }
 /* page4!!!!!!!!!!!!! */
 .page4{
+    
+    margin: auto;
+    width: 1291px;
     margin-top: 50px;
-    width: 1291x;
     height: ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .next{
  font-size: 68px;
  color: #000000;
+}
+.alibaba{
+  border-radius: 10px;
+ height: 520px;
+    width: 570px ;
+    background-color: white;
+}
+.alibaba_top{
+    padding: 20px;
+    padding-bottom: 15px;
+}
+.page4_img1{
+    width: 150px;
+}
+.alibaba_center h3{
+margin:20px 0  0;
+}
+.alibaba_center{
+    padding: 20px;
+margin:15px 0 ;
+background-color:#F3F1FE ;
+}
+.alibaba_centar_div{
+    display: flex;
+    gap: 30px;
+}
+.alibaba_bottom{
+    padding: 10px 20px;
+}
+.page4_img2{
+    width:225px ;
+    height: 60px;
+    margin: 28px 0;
+}
+/* footer!! */
+footer{
+    background-color: white;
+    max-width:100%;
+    margin: auto;
+}
+.footer_top{
+
+   height: 321px;
+   margin-top: 120px;
+   padding: 40px 0;
+   display: flex;
+   justify-content: space-between;
+}
+.footer_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: #2D2D2D;
+}
+.footer_p{
+    padding: 10px 0;
+    width: 166px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer_btn{
+    width: 200px;
+    margin-top: 20px;
+}
+.footer_top li{
+    font-size:16px;
+    padding: 10px 0 0 0 ;
+
 }
